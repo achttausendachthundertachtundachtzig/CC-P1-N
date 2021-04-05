@@ -1,0 +1,47 @@
+#logo {
+    height: 20%;
+    width: 240px;
+    margin-bottom: 2px;
+}
+#l1 {
+    height: 20%;
+    width: 12%;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+#l2 {
+    height: 20%;
+    width: 12%;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+#l3 {
+    height: 20%;
+    width: 12%;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+hr {
+    height: 3px;
+    background-color: rgb(5, 5, 133);
+    width: 20%;
+    text-align:left;
+    position: absolute;
+
+}
+
+#t1 {
+    font-size: 24px;
+}
+
+#t2 {
+    font-size: 22px;
+}
+
+#bu {
+    color:green;
+    position: relative;
+}
