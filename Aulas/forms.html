@@ -1,0 +1,79 @@
+<!-- <form></from>:
+        • autocomplete=“on|off”: sugerir valores para o que estamos digitando, com base em valores que foram digitados
+    anteriormente.
+        • action=“string”:Especifica para onde os dados do formulário serão enviados. 
+        • method=“get|post”: Especifica o método do HTTP que será utilizado para a submissão.
+        • novalidate: Impede a validação dos campos antes da submissão
+        • target=“_blank|_self”: Indica onde a página de destino será aberta("_blank"/"_self")
+
+    <input></input>: Inserir dados
+        • type =“text”: valor padrão é o text;
+        • placeholder: texto que aparece quando o campo está vazio; 
+        • maxlength: quantidade máxima de caracteres;
+        • required: indica que o campo é necessário, não permitindo submeter o formulário se o campo estiver
+em branco; 
+        • disabled: deixa o campo desabilitado; 
+        • readonly: impede edições no campo, permitindo apenas que o usuário leia o valor.
+    
+    <textarea></textarea>: Permite que o usuário digite mais de uma linha de texto
+        • cols=“30”: Define a quantidade de colunas do textarea;
+        • rows=“10”: Define a quantidade de linhas do textarea;
+
+    Number:
+    • Atributos
+    • max: O valor máximo aceito pelo input
+    • min: O valor mínimo aceito pelo input
+    • placeholder: Um valor de exemplo, exibido dentro do campo do input quando ele estiver
+    vazio. 
+    • readonly: Um valor booleano, indicando se o valor do input é apenas para leitura. 
+    • step: Um valor de alteração informado -->
+
+<!-- <input type=“radio”/>: Permite selecionar apenas uma opção.
+        • checked=“checked” - Seleciona mais de  um elemento no checkbox;
+     <input type=“time” name="data"/>
+
+     <input type=“datetime-local” name="datatempo"/>
+    
+    <input type=“range” min="0" max="50"/>: Permite que o usuário escolha um valor entre os valores mínimo e máximo
+passados.
+    
+    <input type=“color” value="#00FF00"/>: Abre uma paleta de cores para a seleção de uma cor
+
+    <input type="submit" value="enviar"/>: Usado para que o usuário clique quando quiser enviar o
+formulário.
+
+    <input type="reset" value="enviar"/>: Serve para quando o usuário quiser reiniciar o formulário. 
+
+<form>
+    <button>Clique Aqui</button>
+</form>: Representa um botão clicável.
+
+<form>
+    <select>
+        <option value="html5" selected> Html5</option>
+        <option value="JS"> JavaScript</option>
+        <option value="PHP">PHP</option>
+        <select>
+</form>
+* selected: Seleciona um elemento no select;
+
+ • Esta tag serve para darmos nomes aos campos. Se passarmos o id do input no
+atributo “for”, estaremos indicando ao navegador que o Label é referente
+àquele campo. Quando o usuário clicar no texto do Label, o input receberá
+foco, permitindo que o usuário já entre com os dados.
+<form autocomplete="on">
+    <label for="email">Email</label>
+    <input type="text" id="email">
+</form>
+
+• Fieldset: Serve para criarmos um campo dentro do formulário para poder melhor 
+organizar os campos.
+• A tag <legend> serve para darmos um título à seção.
+     -->
+<form>
+<fieldset>
+    <legend>Cadastro</legend>
+    Nome: <input type="text"><br>
+    Email: <input type="text"><br>
+</fieldset>
+</form>

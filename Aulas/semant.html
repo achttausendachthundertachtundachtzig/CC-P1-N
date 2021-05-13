@@ -1,0 +1,106 @@
+<!--
+• A tag <div> é um elemento de bloco (block element), ou seja, esse elemento 
+preenche uma linha inteira e os elementos que aparecem após ele serão exibidos na 
+linha de baixo.
+
+• A tag <span> é um elemento de linha (inline element), o que significa que os 
+elementos seguintes irão aparecer na sua frente caso haja um espaço na linha. Usada 
+com frequência para marcar algo no texto sem pular linha.
+
+• Propriedade width and height não se aplicam em elementos inline
+
+TAGS:
+    - <abbr></abbr>: abreviatura;
+    - <adress></adress>: define informações de um contato;
+    - <article></article>: define um artigo;
+    - <aside></aside>: Define um conteúdo ao lado do conteúdo principal da página;
+    - <code></code>: define um trecho de código;
+    - <details></details>: adiciona informações adicionais(o usuário deve clicar para ler);
+    - <summary></summary>: adiciona um título para o <details>;
+    - <df></dfn>: usada para definição de termos;
+    - <footer>@Copyright Filipe</footer>: define um rodapé;
+    - <header></header>: define um cabeçalho;
+    - <main></main>: Define a parte principal de um documento.
+    - <nav></nav>: Define um grupo de links para navegação.
+    - <figure></figure>: é utilizada para marcar uma foto, digrama ou ilustrações no 
+documento;
+            - <figcaption></figcaption>: cria uma legenda para a imagem 
+    - <audio></audio>: permite a criação de um player de sons 
+        - control: permite exibir controles(pause,play);
+        - muted: deixa o som sem aúdio;
+        - loop: permite executar infinito..
+        - autoplay: permite a execução do áudio assim que a página for executada;
+        - <source>: onde é indicado o arquivo a ser executado;
+    - <video></video>: permite a criação de um player de vídeo e funciona de acordo 
+com a tag áudio. No entanto, permite os atributos width e height para definir 
+o tamanho e largura do vídeo.
+-->
+
+<main>
+<!-- 
+    <abbr title="Ciência da Computação">CC</abbr><br>
+
+    <adress>Rosa lima dos Santos</adress><br>
+
+    <article>
+        <h1>Lorem do lorem do lorem!</h1>
+        <p>epsum do epsum</p>
+    </article><br>
+
+    <p>IA</p>
+    <aside>
+        <p>Sofre assédio!</p>
+    </aside><br>
+
+    <p><strong>Remover msg de sucesso em 3s</strong></p>
+    <code>
+    setTimeout(function () {
+        $("#t_Alert_Sucess").remove();
+}, 3000);<br>
+    
+</code><br>
+
+    <details>
+        <summary>Deutsch</summary>
+        <ol>
+            <li>Acht</li>
+            <li>Tausend</li>
+            <li>Und</li>
+            <li>Achtzig</li>
+        </ol>
+    </details><br>
+
+    <p><dfn>HTML</dfn> é uma linguagem de marcação utilizada na construção de páginas na web.</p><br>
+
+
+
+    <article>
+        <header>
+            <h1>Introdução a HTML</h1>
+        </header>
+        <p> O HTML é importante para ...</p>
+    </article><br>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Works</a>
+        <a href="#">Git</a>
+    </nav><br>
+
+    <figure>
+        <img src="../Exercícios/Exercício Sashimi/img/relogio.png" alt="Clock">
+        <figcaption>Aula semantica</figcaption>
+    </figure> -->
+
+    <audio controls>
+        <source src="./musica.mp3" type="audio/mp3">
+    </audio>
+
+    <video width="400" height="300" controls>
+        <source src="./video-teste.mp4" type="video/mp4">
+    </video>
+
+</main>
+<footer>
+    <p>@Copyright Filipe</p>
+</footer><br>
