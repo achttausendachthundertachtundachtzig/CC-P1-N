@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Entendendo Formulários</title>
+</head>
+<body>
+    <h1>Aprendendo Formulários</h1>
+    <form autocomplete="off" method="GET">
+        <fieldset>
+            <legend>Cadastro</legend>
+        <table>
+            <tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input id="nome" type="text" name="nome"></td>
+            </tr>
+            <tr>
+                <td><label for="senha">Senha:</label></td>
+                <td><input id="senha" type="password" name="senha"></td>
+            </tr>
+            <tr>
+                <td><label for="opiniao">Opinião:</label></td>
+                <td><textarea id="opiniao" rows="10" cols="40"></textarea> </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Idade:</td>
+                <td><input type="number" name="idade" min="0" max="100" step="10"></td>
+            </tr>   
+            <tr>
+                <td>Escolha um Curso</td>
+                <td>
+                    <input type="radio" name="curso" value="html" checked> HTML <br>
+                    <input type="radio" name="curso" value="css"> CSS <br>
+                    <input type="radio" name="curso" value="python"> Python <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Escolha um ou vários Filmes</td>
+                <td>
+                    <input type="checkbox" name="filme" value="Senhor dos Aneis" checked> Senhor dos Aneis <br>
+                    <input type="checkbox" name="filme" value="Harry potter"> Harry Potter <br>
+                    <input type="checkbox" name="filme" value="A Origem"> A Origem <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Digite a data de Nascimento</td>
+                <td>
+                    <input type="date" name="data_nascimento">
+                </td>
+            </tr>
+            <tr>
+                <td>Digite uma Cor:</td>
+                <td><input type="color" name="cor"></td>
+            </tr>
+            <tr>
+                <td><label for="cidade">Selecione uma Cidade:</label></td>
+                <td>
+                    <select id="cidade">
+                        <option value="João Pessoa">João Pessoa</option>
+                        <option value="Campina Grande">Campina Grande</option>
+                        <option value="Recife">Recife</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Enviar</button>
+        <br>
+        <input type="button" value="Button">
+        <br>
+        <input type="reset" value="Resetar">
+        </fieldset>
+    </form>
+</body>
+</html>
