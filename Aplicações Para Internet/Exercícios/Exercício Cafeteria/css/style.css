@@ -1,0 +1,101 @@
+#background{
+    background-image: url("../img/cofee.jpg");
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-position: -400px -380px; /*posição x, y*/
+
+}
+#titulo{
+    width: 29%;
+    height: 17%;
+    background-color:  #BF571B99;
+    text-align: left;
+    text-align: center;
+    position: absolute;
+    margin-top: 400px;
+    margin-bottom: 200px;
+    
+}
+#titulo2{
+    font-size: 18pt;
+    text-align: center;
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+    padding-top: 10px; /* espaçamento no topo*/
+    padding-left: 10px;
+}
+.img-float{
+    float:left;
+    width: 20%;
+    height: 10%;
+    border-radius: 20px;
+    box-shadow: 5px 1px 5px rgb(0, 0, 0);
+}
+.div-overflow{
+    overflow: auto;
+    margin-top: 1%;
+    display: inline-block;
+}
+#container{
+    background-color: white;
+}
+p{
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    height: 10%;
+    width: 77%;
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+}
+h1{
+    font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 0%;
+    margin-top: 2%;
+}
+hr{
+    margin-top: 0;
+    width: 28%;
+    background-color: #732C02;
+}
+#cafe{
+    border-collapse: collapse;
+    font-family: 'Dancing Script', cursive;
+    
+}
+#cafe td, #cafe th {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+}
+.coluna1, th{
+    text-decoration: black;
+    text-decoration-style: solid;
+    font-size: 20px;
+}
+.coluna1{
+    width: 8%;
+    text-align: center;
+}
+th{
+    background-color: #591902;
+    color: white;
+}
+td{
+    background-color: #F29D35;
+}
+table{
+    margin-top: 1%;
+}
+main{
+    margin-left: 1%;
+    width: 98%;
+}
+#txtcopy{
+    margin-left: 0;
+    margin-top: 1%;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif
+    
+}
